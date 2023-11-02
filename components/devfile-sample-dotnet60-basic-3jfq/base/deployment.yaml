@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-3jfq
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/rsoaresd_org/rs-demos-yqsg-tenant/component-annotation-dotnet-component/devfile-sample-dotnet60-basic-3jfq@sha256:a46689038851ffbc31aed3f6787194f7399d946ddfb2e6bd3cb4a29f1cb404ca
         imagePullPolicy: Always
         name: main
         ports:
