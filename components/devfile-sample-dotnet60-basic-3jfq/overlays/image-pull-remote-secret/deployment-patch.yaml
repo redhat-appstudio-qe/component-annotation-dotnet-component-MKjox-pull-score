@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dotnet60-basic-3jfq
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - env:
+        - name: var_name
+          value: test
+        image: quay.io/rsoaresd_org/rs-demos-yqsg-tenant/component-annotation-dotnet-component/devfile-sample-dotnet60-basic-3jfq@sha256:a46689038851ffbc31aed3f6787194f7399d946ddfb2e6bd3cb4a29f1cb404ca
+        name: main
+        resources: {}
+status: {}
